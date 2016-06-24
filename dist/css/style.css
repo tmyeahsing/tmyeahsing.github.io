@@ -1,7 +1,7 @@
 /*
  * Author: 
  * Version: 0.1.0
- * Compile Date: 2016-06-24 18:01
+ * Compile Date: 2016-06-24 23:06
 */ 
 @import url(weui.min.css);
 body {
@@ -47,3 +47,14 @@ a:hover {
   font-size: 18px; }
   .g_bind_phone .weui_vcode .weui_btn:after {
     border-radius: 0; }
+
+.g_order_list .order_urgent .order_date:before {
+  content: '应急';
+  color: #fff;
+  background-color: #FF8910;
+  display: inline-block;
+  padding: 1px 5px; }
+.g_order_list .weui_cell_ft .weui_btn {
+  margin-top: 0; }
+.g_order_list .status_pending {
+  color: #39D837; }
